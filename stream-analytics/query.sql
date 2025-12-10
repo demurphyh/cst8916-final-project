@@ -21,13 +21,13 @@ SELECT
         ELSE 'Unsafe'
     END AS safetyStatus
 INTO
-    SensorAggregations
+    [SensorAggregations]
 FROM
-    icesensors TIMESTAMP BY timestamp
+    [icesensors] TIMESTAMP BY timestamp
 GROUP BY
-    TUMBLINGWINDOW(minute, 1),
+    TUMBLINGWINDOW(minute, 5),
     location;
 
 SELECT *
-INTO outputblob
-FROM icesensors;
+INTO [outputblob]
+FROM [iceSensors] TIMESTAMP BY timestamp;
