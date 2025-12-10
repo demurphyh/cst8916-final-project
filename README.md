@@ -186,7 +186,7 @@ FROM [iceSensors] TIMESTAMP BY timestamp;
   - [CST8916 Final Project](https://github.com/demurphyh/cst8916-final-project)
   - [Rideau Canal Sensor Simulator](https://github.com/demurphyh/rideau-canal-sensor-simulation)
   - [Rideau Canal Dashboard](https://github.com/demurphyh/rideau-canal-dashboard)
-- Creat IoT Hub on Azure portal with devices for the three locations:
+- Create IoT Hub on Azure portal with devices for the three locations:
   - Dow's Lake
   - Fifth Avenue
   - NAC
@@ -241,3 +241,5 @@ FROM [iceSensors] TIMESTAMP BY timestamp;
 ### 12. References
 
 [Week 11 Walkthrough](https://www.youtube.com/watch?v=pBcOtfC_Aiw&embeds_referring_euri=https%3A%2F%2Fbrightspace.algonquincollege.com%2F&source_ve_path=MjM4NTE)
+
+[Week 11 Walkthrough repo](https://github.com/ramymohamed10/CST8916-IoT-Data-Streaming)
